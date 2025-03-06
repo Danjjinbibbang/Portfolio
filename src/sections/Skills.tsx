@@ -7,13 +7,13 @@ function Skills() {
           <hr className="w-25 border-solid border-0.5 border-gray-400" />
         </div>
         <button className="absolute -left-10 top-1.5 cursor-pointer">
-          <img className="flex w-7" src="../public/icon/linkGray.svg" />
+          <img className="flex w-7" src="/icon/linkGray.svg" />
         </button>
       </div>
       <div className="flex flex-col bg-yellow-50 w-4/5 h-3/4 rounded-xl px-10 py-10 gap-y-3">
         <div className="flex flex-wrap gap-x-10 w-full">
           <div className="flex gap-x-3 w-30">
-            <img src="../../public/icon/language.png" className="w-10 h-10" />
+            <img src="/icon/language.png" className="w-10 h-10" />
             <div className="font-semibold">Language</div>
           </div>
           <ul className="flex flex-wrap gap-x-3 gap-y-2">
@@ -33,7 +33,7 @@ function Skills() {
         </div>
         <div className="flex flex-wrap gap-x-10 w-full">
           <div className="flex gap-x-3 w-30">
-            <img src="../../public/icon/language.png" className="w-10 h-10" />
+            <img src="/icon/language.png" className="w-10 h-10" />
             <div className="font-semibold">Frontend</div>
           </div>
           <ul className="flex flex-wrap gap-x-3 gap-y-2">
@@ -54,7 +54,7 @@ function Skills() {
         </div>
         <div className="flex flex-wrap gap-x-10 w-full">
           <div className="flex gap-x-3 w-30">
-            <img src="../../public/icon/language.png" className="w-10 h-10" />
+            <img src="/icon/language.png" className="w-10 h-10" />
             <div className="font-semibold">Backend</div>
           </div>
           <ul className="flex flex-wrap gap-x-3 gap-y-2">
@@ -66,7 +66,7 @@ function Skills() {
         </div>
         <div className="flex flex-wrap gap-x-10 w-full">
           <div className="flex gap-x-3 w-30">
-            <img src="../../public/icon/language.png" className="w-10 h-10" />
+            <img src="/icon/language.png" className="w-10 h-10" />
             <div className="font-semibold">DevOps</div>
           </div>
           <ul className="flex flex-wrap gap-x-3 gap-y-2 items-first">

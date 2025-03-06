@@ -7,7 +7,7 @@ function Project() {
           <hr className="w-40 border-solid border-0.5 border-gray-400" />
         </div>
         <button className="absolute -left-10 top-1.5 cursor-pointer">
-          <img className="flex w-7" src="../public/icon/linkGray.svg" />
+          <img className="flex w-7" src="/icon/linkGray.svg" />
         </button>
       </div>
       <div className="flex gap-x-3">
