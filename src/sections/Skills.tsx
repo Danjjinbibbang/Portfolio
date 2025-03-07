@@ -1,16 +1,19 @@
 function Skills() {
   return (
-    <section className="flex flex-col items-center justify-center h-4/5 bg-yellow-300 gap-y-6 py-10">
+    <section
+      id="skills"
+      className="flex flex-col items-center justify-center flex-grow bg-yellow-300 gap-y-6 py-10 scroll-mt-20"
+    >
       <div className="flex flex-col gap-y-2 relative">
         <div className="flex flex-col gap-y-2">
           <h2 className="text-3xl font-black">SKILLS</h2>
           <hr className="w-25 border-solid border-0.5 border-gray-400" />
         </div>
-        <button className="absolute -left-10 top-1.5 cursor-pointer">
+        <a href="#skills" className="absolute -left-10 top-1.5 cursor-pointer">
           <img className="flex w-7" src="/icon/linkGray.svg" />
-        </button>
+        </a>
       </div>
-      <div className="flex flex-col bg-yellow-50 w-4/5 h-3/4 rounded-xl px-10 py-10 gap-y-3">
+      <div className="flex flex-col bg-yellow-50 w-4/5 flex-grow rounded-xl px-10 py-10 gap-y-3">
         <div className="flex flex-wrap gap-x-10 w-full">
           <div className="flex gap-x-3 w-30">
             <img src="/icon/language.png" className="w-10 h-10" />
